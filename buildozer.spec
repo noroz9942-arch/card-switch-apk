@@ -36,8 +36,10 @@ android.ndk = 25b
 # پذیرش خودکار لایسنس SDK
 android.accept_sdk_license = True
 
-# معماری‌های پشتیبانی شده پردازنده
-android.archs = arm64-v8a[buildozer]
+# معماری پردازنده (تنظیم روی یک معماری برای جلوگیری از خطای کمبود رم در گیت‌هاب)
+android.archs = arm64-v8a
+
+[buildozer]
 
 # سطح لاگ‌برداری (۲ برای نمایش جزئیات کامل جهت عیب‌یابی)
 log_level = 2
