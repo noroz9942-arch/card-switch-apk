@@ -37,9 +37,7 @@ android.ndk = 25b
 android.accept_sdk_license = True
 
 # معماری‌های پشتیبانی شده پردازنده
-android.archs = arm64-v8a,armeabi-v7a
-
-[buildozer]
+android.archs = arm64-v8a[buildozer]
 
 # سطح لاگ‌برداری (۲ برای نمایش جزئیات کامل جهت عیب‌یابی)
 log_level = 2
